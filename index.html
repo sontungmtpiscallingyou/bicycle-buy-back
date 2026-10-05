@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Bicycle Buyback</title>
+    <style>
+        :root {
+            --bg-color: #0b1511;
+            --card-bg: #12231b;
+            --text-primary: #e6f1ec;
+            --text-secondary: #9cb3a8;
+            --accent: #10b981;
+            --border-color: rgba(255, 255, 255, 0.08);
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.65;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 780px;
+            margin: 0 auto;
+        }
+        header {
+            margin-bottom: 32px;
+            padding-bottom: 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .badge {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent);
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            margin-bottom: 12px;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #ffffff;
+            margin-bottom: 8px;
+        }
+        .last-updated {
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        p {
+            font-size: 15px;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+        p:last-child {
+            margin-bottom: 0;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-top: 8px;
+        }
+        li {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+        li::before {
+            content: "•";
+            color: var(--accent);
+            font-size: 18px;
+            position: absolute;
+            left: 4px;
+            top: -2px;
+        }
+        li strong {
+            color: var(--text-primary);
+        }
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <span class="badge">Official Policy</span>
+        <h1>Privacy Policy</h1>
+        <p class="last-updated">Application: <strong>Bicycle Buyback</strong> (com.bicyclebuyback.app) • Last updated: October 2026</p>
+    </header>
+
+    <section>
+        <h2>1. Zero-GPS & Location Privacy</h2>
+        <p><strong>Bicycle Buyback</strong> operates under a strict offline-first and privacy-first philosophy. We <strong>DO NOT</strong> track, collect, record, or store your real-time GPS coordinates or background location. All route information, daily commute selections, and distances are manually entered or selected from preset templates by the user.</p>
+    </section>
+
+    <section>
+        <h2>2. Local Data Storage & User Ownership</h2>
+        <p>All your cycling logs, daily streak history, calculated petrol savings, gym savings, and bicycle payoff targets are saved 100% locally on your device using an internal SQLite database (Android Room). Your personal activity data is never uploaded to any remote server without your explicit consent.</p>
+    </section>
+
+    <section>
+        <h2>3. Third-Party Services & Advertising</h2>
+        <p>The application integrates standard, trusted Google LLC services to support free usage and in-app transactions:</p>
+        <ul>
+            <li><strong>Google AdMob:</strong> Serves interstitial and rewarded video advertisements for free users. AdMob may collect pseudonymous identifiers (such as Android Advertising ID) for ad delivery and fraud prevention in accordance with <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</li>
+            <li><strong>Google Play Billing:</strong> Facilitates secure, one-time in-app purchases (Ad Removal and Developer Tips). All payment data is processed directly by Google Play; we never collect or store payment card or financial details.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>4. Device Permissions</h2>
+        <p>The app only requests the minimum necessary permissions:</p>
+        <ul>
+            <li><strong>INTERNET & ACCESS_NETWORK_STATE:</strong> Needed to load Google AdMob advertisements and verify Google Play purchases.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Used to deliver optional morning and evening ride reminders (only active when enabled by the user in Settings).</li>
+            <li><strong>VIBRATE:</strong> Provides subtle haptic feedback when completing a trip record.</li>
+            <li><strong>RECEIVE_BOOT_COMPLETED:</strong> Automatically restores local scheduled ride reminders when the device reboots.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Children's Privacy</h2>
+        <p>Bicycle Buyback is intended for general audiences and is not directed at children under the age of 13. We do not knowingly collect personal identifiable information from children.</p>
+    </section>
+
+    <section>
+        <h2>6. Data Control & Deletion</h2>
+        <p>Because all data resides strictly on your local device, you retain total control over your records. You can delete individual trip logs at any time in the app's History tab, or wipe all records completely by clearing the app's storage in Android Settings or by uninstalling the application.</p>
+    </section>
+
+    <section>
+        <h2>7. Contact & Support</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy or application practices, feel free to contact us:</p>
+        <p>• <strong>Email:</strong> <a href="mailto:minh2805.developer@gmail.com">minh2805.developer@gmail.com</a><br>
+           • <strong>Developer:</strong> Bicycle Buyback Team</p>
+    </section>
+
+    <footer>
+        &copy; 2026 Bicycle Buyback. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>
